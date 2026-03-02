@@ -1,3 +1,4 @@
+//ASSESSMENT
 #include <stdio.h>
 
 // Function declaration
