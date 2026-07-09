@@ -1,0 +1,47 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Dashboard
+{% endblock %}
+
+{% block content %}
+
+<div class="container mt-5">
+
+    <div class="card shadow">
+
+        <div class="card-body text-center">
+
+            <h2>
+                Welcome, {{ request.user.first_name }}
+            </h2>
+
+            <hr>
+
+            <p>
+                Username :
+                <strong>{{ request.user.username }}</strong>
+            </p>
+
+            <p>
+                Email :
+                <strong>{{ request.user.email }}</strong>
+            </p>
+
+            <p>
+                Role :
+                <strong>{{ request.user.role }}</strong>
+            </p>
+
+            <p>
+                Phone :
+                <strong>{{ request.user.phone_number }}</strong>
+            </p>
+
+        </div>
+
+    </div>
+
+</div>
+
+{% endblock %}

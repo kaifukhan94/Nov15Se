@@ -1,0 +1,189 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Doctors
+{% endblock %}
+
+{% block content %}
+
+<div class="container mt-5">
+
+    <h2 class="text-center mb-4">
+        Our Doctors
+    </h2>
+    <form method="GET">
+
+    <div class="row mb-5">
+
+        <div class="col-md-4">
+
+            <input
+
+                type="text"
+
+                name="name"
+
+                value="{{ name }}"
+
+                class="form-control"
+
+                placeholder="Doctor Name"
+
+            >
+
+        </div>
+
+        <div class="col-md-3">
+
+            <select
+
+                name="specialization"
+
+                class="form-select">
+
+                <option value="">
+
+                    All Specializations
+
+                </option>
+
+                {% for value,label in specializations %}
+
+                <option
+
+                    value="{{ value }}"
+
+                    {% if specialization == value %}
+
+                        selected
+
+                    {% endif %}>
+
+                    {{ label }}
+
+                </option>
+
+                {% endfor %}
+
+            </select>
+
+        </div>
+
+        <div class="col-md-3">
+
+            <input
+
+                type="text"
+
+                name="city"
+
+                value="{{ city }}"
+
+                class="form-control"
+
+                placeholder="City"
+
+            >
+
+        </div>
+
+        <div class="col-md-2">
+
+            <button
+
+                class="btn btn-primary w-100">
+
+                Search
+
+            </button>
+
+        </div>
+
+    </div>
+
+</form>
+    <div class="row">
+
+        {% for doctor in doctors %}
+
+        <div class="col-md-4 mb-4">
+
+            <div class="card shadow h-100">
+
+                <div class="card-body">
+
+                    <h4>
+
+                        Dr.
+                        {{ doctor.user.first_name }}
+                        {{ doctor.user.last_name }}
+
+                    </h4>
+
+                    <hr>
+
+                    <p>
+
+                        <strong>Specialization:</strong>
+
+                        {{ doctor.specialization }}
+
+                    </p>
+
+                    <p>
+
+                        <strong>Experience:</strong>
+
+                        {{ doctor.experience }} Years
+
+                    </p>
+
+                    <p>
+
+                        <strong>Consultation Fee:</strong>
+
+                        ₹ {{ doctor.consultation_fee }}
+
+                    </p>
+
+                    <p>
+
+                        <strong>City:</strong>
+
+                        {{ doctor.city }}
+
+                    </p>
+
+                    <a
+                        href="{% url 'doctor_detail' doctor.id %}"
+                        class="btn btn-primary w-100">
+
+                            View Profile
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        {% empty %}
+
+        <div class="col-12">
+
+            <div class="alert alert-info text-center">
+
+                No doctors are available yet.
+
+            </div>
+
+        </div>
+
+        {% endfor %}
+
+    </div>
+
+</div>
+
+{% endblock %}

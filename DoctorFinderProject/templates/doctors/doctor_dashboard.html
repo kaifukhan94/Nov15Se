@@ -1,0 +1,121 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Doctor Dashboard
+{% endblock %}
+
+{% block content %}
+
+<div class="container mt-5">
+
+    <div class="card shadow">
+
+        <div class="card-header bg-success text-white">
+
+            <h3>
+
+                Doctor Dashboard
+
+            </h3>
+
+        </div>
+
+        <div class="card-body">
+
+            <h4>
+
+                Welcome Dr.
+                {{ doctor.user.first_name }}
+                {{ doctor.user.last_name }}
+
+            </h4>
+
+            <hr>
+
+            <p>
+
+                <strong>Qualification:</strong>
+
+                {{ doctor.qualification }}
+
+            </p>
+
+            <p>
+
+                <strong>Specialization:</strong>
+
+                {{ doctor.specialization }}
+
+            </p>
+
+            <p>
+
+                <strong>Experience:</strong>
+
+                {{ doctor.experience }} Years
+
+            </p>
+
+            <p>
+
+                <strong>Consultation Fee:</strong>
+
+                ₹ {{ doctor.consultation_fee }}
+
+            </p>
+
+            <p>
+
+                <strong>Hospital:</strong>
+
+                {{ doctor.hospital_name }}
+
+            </p>
+
+            <p>
+
+                <strong>City:</strong>
+
+                {{ doctor.city }}
+
+            </p>
+
+            <p>
+
+                <strong>State:</strong>
+
+                {{ doctor.state }}
+
+            </p>
+
+            
+
+            <p>
+
+                <strong>Bio:</strong>
+
+                {{ doctor.bio }}
+
+            </p>
+
+            <hr>
+
+        <div class="d-flex gap-2">
+
+    <a href="{% url 'add_availability' %}" class="btn btn-success">
+        Add Availability
+    </a>
+
+    <a href="{% url 'availability_list' %}" class="btn btn-primary">
+        Manage Availability
+    </a>
+
+</div>
+
+        </div>
+
+    </div>
+
+</div>
+
+{% endblock %}
