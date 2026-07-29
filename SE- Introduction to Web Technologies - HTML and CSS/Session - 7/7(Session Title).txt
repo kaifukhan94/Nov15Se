@@ -1,0 +1,8 @@
+Session 7: Flexbox & GridCoverage: CSS Flexbox (container, justify, align) and Grid (template columns & rows).
+Demo: Responsive gallery of social icons.
+
+Tasks
+1. Create an HTML file with a container div and 4 images of your favorite apps (Instagram, WhatsApp, Zomato, Spotify) as social icons. Use CSS Flexbox to display them in a row with equal spacing using justify-content.
+2. Build a horizontal playlist bar like Spotify using Flexbox: add 5 song cards with song name and artist, and use align-items to vertically center the text in each card.
+3. Design a Flipkart-style product grid: create a section with 6 product cards (use placeholder images and product names), and use CSS Grid to arrange them in 3 columns and 2 rows.
+4. Make your product grid responsive: use grid-template-columns to show 3 columns on desktop, 2 columns on tablet, and 1 column on mobile screens.<br><br><em><strong>Hint:</strong> Use CSS media queries to change grid-template-columns based on screen width.</em>

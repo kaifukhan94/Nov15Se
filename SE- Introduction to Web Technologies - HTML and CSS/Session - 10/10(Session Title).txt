@@ -1,0 +1,9 @@
+Session 10: Bootstrap ComponentsCoverage: Navbar, Buttons, Cards, Carousel, Forms.
+Demo: Navbar for Social Bio Link App.
+
+Tasks
+1. Create a Bootstrap Navbar for a music playlist app like Spotify, including links for Home, Playlists, and Profile. Make sure it collapses into a hamburger menu on mobile.
+2. Design a Bootstrap Card to display a Flipkart-style product preview with an image, product name, price, and a 'Buy Now' button.
+3. Build a Bootstrap Carousel that cycles through 3 movie posters, each with a caption below like BookMyShow's featured movies section.<br><br><em><strong>Hint:</strong> Use Bootstrap's Carousel component and add images with captions inside each carousel-item.</em>
+4. Create a Bootstrap Form for a Zomato-style restaurant review: include fields for name, rating (1-5 stars), and a review message, along with a submit button.
+5. Use Bootstrap Buttons to create a row of filter buttons (e.g., 'All', 'Veg', 'Non-Veg', 'Desserts') for a food delivery app homepage. Highlight the selected filter using the 'active' class.

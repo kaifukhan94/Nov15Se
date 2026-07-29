@@ -1,0 +1,8 @@
+Session 9: Bootstrap BasicsCoverage: Bootstrap Grid System, Containers, Rows, Columns.
+Demo: 2-column layout with profile image and link list.
+
+Tasks
+1. Create a Bootstrap layout for a Flipkart-style product card page: use a container with a row, and display three product cards side by side using the grid system's columns.
+2. Build a Zomato restaurant listing page using Bootstrap grid: arrange two restaurant cards per row, each card showing a restaurant name and a short description.<br><br><em><strong>Hint:</strong> Use col-6 inside a row to get two equal columns per row.</em>
+3. Design a BookMyShow-like movie details section using Bootstrap: place a movie poster image in one column and movie details (title, genre, rating, and a 'Book Now' button) in the second column, using the grid system.
+4. Refactor your 2-column layout to be mobile-friendly: make the columns stack vertically on screens smaller than 576px using Bootstrap's responsive grid classes.<br><br><em><strong>Hint:</strong> Try using col-12 for xs and col-6 for md and above.</em>

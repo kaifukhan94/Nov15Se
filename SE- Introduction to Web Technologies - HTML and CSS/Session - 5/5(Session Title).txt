@@ -1,0 +1,9 @@
+Session 5: Introduction to CSS 3Coverage: Inline, Internal, External styles; Selectors, Colors, Font families.
+Demo: Color-theme switch between light and dark mode.
+
+Tasks
+1. Create an HTML file for a Flipkart-style product card and apply inline CSS to set a unique background color and font size for the product title only.
+2. Build a Myntra-like offer banner using internal CSS (inside a <style> tag) to set a custom font family, text color, and background color for the banner text.
+3. Create a separate CSS file named styles.css and link it to your HTML file. Use external CSS to style all <button> elements with a Zomato-inspired color, rounded corners, and a hover effect that changes the background color.
+4. Write CSS selectors to style all elements with the class 'playlist-item' (for a Spotify playlist page) to have a dark background and white text. Then, add a rule to highlight the currently playing song with a different color using a unique id selector.
+5. Implement a simple light/dark mode switch for a BookMyShow movie detail page using internal CSS and a toggle button. When the button is clicked, switch between light and dark color themes for the page.<br><br><em><strong>Hint:</strong> Use JavaScript to add or remove a 'dark-mode' class on the <body> and define the color themes in CSS.</em>

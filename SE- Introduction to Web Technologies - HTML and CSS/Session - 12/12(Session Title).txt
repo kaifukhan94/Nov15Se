@@ -1,0 +1,9 @@
+Session 12: Integration ReviewCoverage: Integrate HTML + CSS + Bootstrap for a cohesive layout.
+Demo: Static mock-up of Bio Link landing page.
+
+Tasks
+1. Create a static landing page for a music artist using HTML and CSS, featuring their profile image, a short bio, and three social media buttons styled with Bootstrap icons.
+2. Use Bootstrap's grid system to arrange three featured playlists (like Spotify) in a responsive row, each with a cover image, playlist name, and a 'Listen Now' button.
+3. Design a Flipkart-style product showcase section with four product cards in a row using Bootstrap card components, ensuring the layout collapses to two cards per row on mobile screens.<br><br><em><strong>Hint:</strong> Use Bootstrap's col-md-3 and col-6 classes for responsiveness.</em>
+4. Refactor your landing page to include a sticky navigation bar at the top using Bootstrap's navbar component, with links to Home, About, and Contact sections.
+5. Add a footer to your page with Instagram-style social icons and ensure the entire layout remains visually cohesive by applying a consistent color scheme using Bootstrap utility classes.

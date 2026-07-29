@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Grid</title>
+
+<style>
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:20px;
+
+}
+
+.card{
+
+    border:1px solid black;
+    padding:15px;
+    text-align:center;
+
+}
+
+.card img{
+    width:150px;
+}
+
+/* Tablet */
+
+@media(max-width:768px){
+
+.grid{
+    grid-template-columns:repeat(2,1fr);
+}
+}
+
+/* Mobile */
+
+@media(max-width:480px){
+.grid{
+    grid-template-columns:1fr;
+}
+}
+
+</style>
+
+</head>
+<body>
+
+<div class="grid">
+
+    <div class="card">
+        <img src="phone.jpg">
+        <p>Mobile</p>
+    </div>
+
+    <div class="card">
+        <img src="laptop.jpg">
+        <p>Laptop</p>
+    </div>
+
+    <div class="card">
+        <img src="watch.jpg">
+        <p>Watch</p>
+    </div>
+
+    <div class="card">
+        <img src="headphone.jpg">
+        <p>Headphones</p>
+    </div>
+
+    <div class="card">
+        <img src="camera.jpg">
+        <p>Camera</p>
+    </div>
+
+    <div class="card">
+        <img src="tv.jpg">
+        <p>Smart TV</p>
+    </div>
+
+</div>
+
+</body>
+</html>

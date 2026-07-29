@@ -1,0 +1,12 @@
+Session 2: HTML Page StructureCoverage: HTML boilerplate (<!DOCTYPE>, <html>, <head>, <body>).
+Tags: Headings, paragraphs, lists, anchors, images, tables.
+Demo: Create personal “About Me” page.
+
+Tasks
+1. Create a new HTML file called foodie-profile.html with the full HTML5 boilerplate structure (<!DOCTYPE html>, <html>, <head>, <body>), and set the title to 'My Foodie Profile'.
+2. Inside foodie-profile.html, add headings and paragraphs to introduce yourself as a food lover, including your favorite cuisine and a short story about your best meal.
+3. Add an unordered list of your top 5 favorite dishes (like you'd see on Zomato), and a numbered list of 3 restaurants you want to try next.
+4. Insert an image of your favorite dish using the <img> tag, and make the image clickable so it opens the official website of that dish or restaurant in a new tab using an anchor (<a>) tag.<br><br><em><strong>Hint:</strong> Use target="_blank" in your anchor tag.</em>
+5. Create a table that compares 3 food delivery apps (e.g., Zomato, Swiggy, Uber Eats) with columns for App Name, Delivery Charges, and Rating. Fill in sample data for each.
+
+

@@ -1,0 +1,8 @@
+Session 8: Responsive DesignCoverage: Media queries, Viewport, Breakpoints.
+Demo: Make the profile card mobile-friendly.
+
+Tasks
+1. Create a Flipkart-style product card in HTML and CSS, then use a meta viewport tag to ensure it scales correctly on mobile devices.
+2. Add media queries to your product card so that when the screen width is 600px or less, the card layout switches from horizontal (image and details side by side) to vertical (image on top, details below).
+3. Set up three breakpoints (600px, 900px, 1200px) for your product card and change the card's font size and padding at each breakpoint to improve readability on different devices.<br><br><em><strong>Hint:</strong> Use @media only screen and (max-width: ...) in your CSS for each breakpoint.</em>
+4. Test your responsive product card by resizing your browser window and taking screenshots at mobile, tablet, and desktop widths; submit the screenshots along with a short note on what changes at each size.

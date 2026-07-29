@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookMyShow Theme Switch</title>
+
+<style>
+
+body{
+    background-color:white;
+    color:black;
+    font-family:Arial;
+}
+
+.dark-mode{
+    background-color:#222;
+    color:white;
+}
+
+button{
+    padding:10px 20px;
+}
+
+</style>
+
+</head>
+<body>
+
+    <h1>Avengers: Endgame</h1>
+
+    <p>Rating: ⭐⭐⭐⭐⭐</p>
+
+    <p>Action | Adventure | Sci-Fi</p>
+
+    <button onclick="changeTheme()">
+        Toggle Theme
+    </button>
+
+<script>
+
+function changeTheme(){
+
+    document.body.classList.toggle("dark-mode");
+
+}
+
+</script>
+
+</body>
+</html>

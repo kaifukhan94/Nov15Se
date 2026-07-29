@@ -1,0 +1,11 @@
+Session 1: Introduction to Web DesignCoverage:How browsers render HTML + CSS.
+Difference between front-end & back-end.Developer tools overview (Chrome DevTools).
+Demo: Inspect elements on Instagram home page.Depth: Conceptual understanding of DOM structure.
+
+Tasks
+1. Open Instagram's home page in Chrome, right-click on a post image, and use Inspect Element to find the exact HTML tag and CSS class used for the image container. Write down the tag name and class.
+2. Create a simple HTML file named myprofile.html that displays your name, a short bio, and a profile picture using appropriate HTML tags (h1, p, img). Open it in your browser and view the result.
+3. Use Chrome DevTools to change the background color of your name (in myprofile.html) to any color you like, live in the browser, without editing the HTML file.
+4. Draw a diagram or write a list showing the DOM structure (parent-child relationships) of your myprofile.html page. Include at least 3 levels (html > body > your content).
+
+

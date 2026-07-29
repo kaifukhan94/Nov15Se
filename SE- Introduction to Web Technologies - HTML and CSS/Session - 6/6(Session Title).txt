@@ -1,0 +1,9 @@
+Session 6: Box Model & PositioningCoverage: Margin, Padding, Border, Display properties, Position (relative, absolute, fixed).
+Demo: Create a profile-card layout.
+
+Tasks
+1. Create an HTML file that displays a Zomato-style restaurant card with a restaurant name, cuisine type, and rating. Use CSS to add margin, padding, and a visible border to the card so that each section is clearly separated.
+2. Design a Flipkart-style product tile with an image, product name, and price. Use different display properties (block, inline-block, none) to control the layout of the product name and price, and hide the price when a specific CSS class is added.<br><br><em><strong>Hint:</strong> Try toggling the class in your HTML to see the effect.</em>
+3. Build a fixed-position WhatsApp chat notification badge at the bottom right corner of the screen. Use position: fixed and appropriate margin and padding to ensure it stays visible even when scrolling.
+4. Create a BookMyShow movie poster grid where each poster uses position: relative. Add a 'New' badge to the top-left corner of one poster using position: absolute, so it overlays the image correctly.<br><br><em><strong>Hint:</strong> Use top and left properties with position: absolute inside a relatively positioned parent.</em>
+5. Refactor your CSS for any one of the above tasks to reduce repeated margin and padding values by using a reusable CSS class. Explain in a comment how this improves maintainability.

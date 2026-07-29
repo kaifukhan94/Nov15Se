@@ -1,0 +1,9 @@
+Session 4: Semantic HTML 5Coverage: Semantic tags (header, nav, article, footer).
+Demo: Rebuild a YouTube-style page layout.
+
+
+Tasks
+1. Create an HTML file that uses semantic tags to build a simple blog post layout with <header> for the blog title, <nav> for navigation links (Home, Explore, About), <article> for the main post content, and <footer> for copyright information.
+2. Recreate a Zomato-style restaurant listing card using semantic HTML5 tags: use <article> for each restaurant, <header> for the restaurant name, and <footer> for rating and delivery time.
+3. Build a Flipkart-style product page section with semantic tags: use <header> for the product title and image, <nav> for category breadcrumbs, <article> for product details and description, and <footer> for offers or warranty info.<br><br><em><strong>Hint:</strong> Focus on the correct use of tags for structure, not just visual layout.</em>
+4. Given a non-semantic HTML snippet for a movie review (using only <div> and <span>), refactor it to use appropriate semantic tags like <header>, <nav>, <article>, and <footer> for improved accessibility and SEO.

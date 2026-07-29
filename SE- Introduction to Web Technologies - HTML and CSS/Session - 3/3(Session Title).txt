@@ -1,0 +1,10 @@
+Session 3: Forms & InputsCoverage: Form elements (input, select, textarea), labels, validation attributes.
+Demo: Registration form for Social Bio Link App.
+Depth: Show POST request preview in DevTools Network tab.
+
+Tasks
+1. Create an HTML form for a Flipkart-style product review, including input fields for username, rating (as a dropdown from 1 to 5), and a textarea for the review message. Use appropriate labels for each field.
+2. Add HTML5 validation attributes to your review form so that username is required, rating must be selected, and the review message must be at least 20 characters long.<br><br><em><strong>Hint:</strong> Use required, minlength, and a default unselectable option for the dropdown.</em>
+3. Modify your form to use the POST method and, after submitting a test review, open the DevTools Network tab to preview the POST request data sent by your form.<br><br><em><strong>Hint:</strong> Look for the form submission request and expand the payload/details to see your input values.</em>
+4. Build a Zomato-style food order form with inputs for user name, a select dropdown for food item (at least 3 options), quantity (number input), and a textarea for delivery instructions. Ensure all fields are labeled and use required validation.
+5. Add a disabled input field to your food order form that displays a fixed order ID (e.g., ORD12345) and explain in a comment why this field should be disabled for users.

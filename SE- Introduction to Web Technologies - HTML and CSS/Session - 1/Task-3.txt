@@ -1,0 +1,13 @@
+Change the background color using Chrome DevTools
+
+Steps
+
+1. Open myprofile.html in Chrome.
+2. Right-click on your name.
+3. Click Inspect.
+4. Select the <h1> element.
+
+
+
+5. In the Styles panel, add:
+	background-color: lightblue;

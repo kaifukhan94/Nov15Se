@@ -1,0 +1,23 @@
+DOM Structure
+
+html
+│
+├── head
+│     └── title
+│
+└── body
+      ├── h1
+      ├── p
+      └── img
+
+
+
+Or as a parent-child list:
+
+html
+ ├── head
+ │     └── title
+ └── body
+       ├── h1 (Name)
+       ├── p (Bio)
+       └── img (Profile Picture)

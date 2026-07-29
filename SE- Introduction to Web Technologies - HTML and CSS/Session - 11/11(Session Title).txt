@@ -1,0 +1,9 @@
+Session 11: Bootstrap Utilities & CustomizationCoverage: Spacing, Typography, Colors, Custom CSS overrides.
+Demo: Theme switcher using Bootstrap classes.
+
+Tasks
+1. Create an HTML page that uses Bootstrap utility classes to add 3 different levels of spacing (margin and padding) around a card displaying a Flipkart-style product image and name.
+2. Build a movie review card (like BookMyShow) using Bootstrap typography utilities to style the movie title, rating, and review text with different font weights and sizes.
+3. Design a Zomato-style restaurant list where each restaurant card uses at least three different Bootstrap color utility classes to highlight ratings, offers, and open/closed status.
+4. Override the Bootstrap primary button color in your own CSS file to use a custom shade (not the default blue), and apply it to a 'Book Ticket' button on your page.<br><br><em><strong>Hint:</strong> Use the CSS selector .btn-primary in your custom stylesheet and link it after the Bootstrap CSS.</em>
+5. Add a theme switcher button to your page that toggles between a light and dark background using Bootstrap classes, and updates the text color for readability.<br><br><em><strong>Hint:</strong> Use JavaScript to toggle 'bg-light'/'bg-dark' and 'text-dark'/'text-light' classes on the main container.</em>
