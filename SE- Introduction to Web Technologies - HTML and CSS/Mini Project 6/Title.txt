@@ -1,0 +1,8 @@
+Mini Project 6 – “Social Bio Link Page – UI Design”Objective: Build a personal bio link page (links to Instagram, LinkedIn, Spotify, etc.) with responsive design.
+Trainer Notes: Guide students to implement a form that accepts link inputs and shows preview cards.
+
+Tasks
+1. Create an HTML form called musicLinksForm that accepts Spotify, YouTube Music, and Apple Music profile URLs as input fields, and display the submitted links as styled preview cards below the form.
+2. Design a responsive UI for a personal 'Gamer Tag' bio link page that adapts to both mobile and desktop screens, showing the user's avatar, gaming alias, and buttons linking to their Twitch, Discord, and Steam profiles.<br><br><em><strong>Hint:</strong> Use CSS Flexbox or Grid for layout and media queries for responsiveness.</em>
+3. Style the input form for adding social links so that each input field displays a platform icon (Instagram, LinkedIn, etc.) inside the input box, similar to how Zomato shows icons in their search bar.<br><br><em><strong>Hint:</strong> Use background-image or position an <img> inside the input with CSS.</em>
+4. After submitting the form, show a preview card for each link with the platform logo, the username/handle extracted from the URL, and a 'Visit' button that opens the link in a new tab.<br><br><em><strong>Constraint:</strong> The preview cards must look visually distinct for each platform (different colors or borders).</em>
